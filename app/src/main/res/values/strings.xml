@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ALC 4.0 Challenge 1</string>
+    <string name="my_profile">View My Profile</string>
+    <string name="aboult_ALC">About ALC </string>
+    <string name="my_name">Jeremiah Odiwuor Panaito</string>
+    <string name="slack">\Slack:    @panaito</string>
+    <string name="track">Track:     Android</string>
+    <string name="country">Country: Kenya</string>
+    <string name="email">Email: panaitoh@gmail.com</string>
+    <string name="phone_number">Phone:  +254717720350</string>
+    <string name="Desc">TODO</string>
+    <string name="welcome">My ALC 4.0 Challenge 1 Solution</string>
+</resources>

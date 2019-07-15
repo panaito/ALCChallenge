@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context="com.jafriam.alc_challenge.MainActivity">
+
+    <Button
+        android:id="@+id/bt_about"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="233dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="344dp"
+        android:text="@string/aboult_ALC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="126"
+        tools:layout_conversion_wrapWidth="322" />
+
+    <Button
+        android:id="@+id/bt_profile"
+        android:layout_width="143dp"
+        android:layout_height="69dp"
+        android:text="@string/my_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398"
+        tools:layout_conversion_wrapWidth="270" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textColorLink="#000A0A0A"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>
